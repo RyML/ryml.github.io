@@ -1,0 +1,11 @@
+p{font-weight:632; text-transform:uppercase; font-size:12px}
+div{background-color:#739056}
+#name{
+	color:red;
+	font-style:italic;
+	margin-left:30%;  
+}
+.notMyName{text-transform:lowercase;
+	color:rgba(71,172,152,.3);}
+div:hover{background-color:#739093}
+body{background-image:url("force.jpg");}
