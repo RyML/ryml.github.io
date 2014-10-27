@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+@font-face{
+		font-family: 'ChunckFiveRegular';
+		src: url('fonts/chunckfive.eot');}
+
+body{background-image: url(file://localhost/Users/ryanlundbohm/Documents/ryml.github.io/Coding/force.jpg);}
+
+h1{font-family: ChunkFiveRegular, Georgia, serif;}
+h1{font-family: 'Open Sans Condensed', sans-serif;}
+
+body {font-family: arial;
+	background-color: rgb(255,255,255);}
+
+h1 {color: rgb(255,255,255); 
+	background-color: black; 
+	text-align: center; 
+	padding-left: 15%; padding-right: 15%;
+	width: 200px
+	display:block;}
+
+/* #words {float: left;
+display: block;
+width: 40%;
+color: rgb(0,0,0);
+text-align: center;}
+
+/* #paddle {
+	float: left;
+	display: block;
+	width: 420px, 600px;
+} */
+
+/*#video{display: block;
+float: center}
+
+a.button{padding: 10px
+30px 10px 30px;
+border: 2px solid 0,0,0;
+color: 0,0,0;
+display: inline;} /* This keeps each button inline */
+
+#nav{text-align: center;} /* Looks at the button as a text instead of a button */
+
+
