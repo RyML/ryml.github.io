@@ -1,23 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-@font-face{
-		font-family: 'ChunckFiveRegular';
-		src: url('fonts/chunckfive.eot');}
+@font-face{font-family: 'ChunckFiveRegular';
+		   src: url('fonts/chunckfive.eot');}
 
-body{background-image: url(https://ryml.github.io/Images/force.jpg);}
+body {font-family: arial; 
+	  background-image: url(http://ryanml.com/Images/force.jpg);
+	  background-position: center;
+	  background-repeat: repeat;
+	  background-attachment: fixed;}
 
-h1{font-family: ChunkFiveRegular, Georgia, serif;}
-h1{font-family: 'Open Sans Condensed', sans-serif;}
+#nav {text-align: center;
+	  color: rgb(255,255,255)}
 
-body {font-family: arial;
-	background-color: rgb(255,255,255);}
-
-h1 {color: rgb(255,255,255); 
+h1 {font-family: 'Open Sans Condensed', sans-serif;
+	color: rgb(255,255,255); 
 	background-color: black; 
 	text-align: center; 
 	padding-left: 15%; padding-right: 15%;
 	width: 200px
 	display:block;}
+
+
+label[for] {
+	cursor: pointer;}
 
 /* #words {float: left;
 display: block;
