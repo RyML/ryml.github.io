@@ -20,6 +20,7 @@ h1 {font-family: 'Open Sans Condensed', sans-serif;
 	width: 200px
 	display:block;}
 
+#paddle.align-center {vertical-align: center;}
 
 label[for] {
 	cursor: pointer;}
