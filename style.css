@@ -20,7 +20,11 @@ h1 {font-family: 'Open Sans Condensed', sans-serif;
 	width: 200px
 	display:block;}
 
-#paddle.align-center {vertical-align: center;}
+#paddle {display: block; 
+		border-radius: 100%; 
+		vertical-align: center;
+		width: -50%;
+		height: -50%;}
 
 label[for] {
 	cursor: pointer;}
@@ -37,7 +41,7 @@ text-align: center;}
 	width: 420px, 600px;
 } */
 
-/*#video{display: block;
+#video {display: block;
 float: center}
 
 a.button{padding: 10px
