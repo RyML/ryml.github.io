@@ -1,55 +1,57 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
 
-@font-face{font-family: 'ChunckFiveRegular';
-		   src: url('fonts/chunckfive.eot');}
+header, nav {
+  background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */ 
+  background-color: #000000;
+  border-bottom-color: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  border-bottom-color: -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  border-bottom-color: -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
+  border-bottom-color: -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  border-bottom-color: linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */   
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #00d2ff;
+  text-align: center;
+}
 
-body {font-family: arial; 
-	  background-image: url(http://ryanml.com/Images/force.jpg);
-	  background-position: center;
-	  background-repeat: repeat;
-	  background-attachment: fixed;}
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
 
-#nav {text-align: center;
-	  color: rgb(255,255,255)}
+ul, li {
+  padding: 0;
+  margin: 0;
+}
 
-h1 {font-family: 'Open Sans Condensed', sans-serif;
-	color: rgb(255,255,255); 
-	background-color: black; 
-	text-align: center; 
-	padding-left: 15%; padding-right: 15%;
-	width: 200px
-	display:block;}
+a {
+  text-decoration: none;
+  color: #00d2ff;
+}
 
-#paddle {display: block; 
-		border-radius: 100%; 
-		vertical-align: center;
-		width: -50%;
-		height: -50%;}
+a:visited {
+  color:#00d2ff;
+}
 
-label[for] {
-	cursor: pointer;}
+#logo {
+  text-align: center;
+  margin: 0;
+}
 
-/* #words {float: left;
-display: block;
-width: 40%;
-color: rgb(0,0,0);
-text-align: center;}
-
-/* #paddle {
-	float: left;
-	display: block;
-	width: 420px, 600px;
-} */
-
-#video {display: block;
-float: center}
-
-a.button{padding: 10px
-30px 10px 30px;
-border: 2px solid 0,0,0;
-color: 0,0,0;
-display: inline;} /* This keeps each button inline */
-
-#nav{text-align: center;} /* Looks at the button as a text instead of a button */
+body {
+  background: -webkit-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
+}
 
 
